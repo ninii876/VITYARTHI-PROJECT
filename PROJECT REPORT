@@ -1,0 +1,50 @@
+
+### 5. `REPORT.md` – Project Report
+```markdown
+# Project Report: Smart To-Do List Application
+
+## 1. Project Overview
+**Title**: Smart To-Do List with Priority & Persistence  
+**Language**: Python 3  
+**Type**: Command-Line Application  
+**Duration**: 1 Day  
+**Author**: [Your Name]
+
+## 2. Objectives
+- Build a functional task manager
+- Learn file I/O with JSON
+- Implement clean OOP design
+- Practice user input validation
+
+## 3. Features Implemented
+- Task creation with title, priority, due date, category
+- View all tasks with visual status
+- Mark tasks as complete
+- Edit and delete tasks
+- Auto-save/load using JSON
+- Input validation and error handling
+
+## 4. Technical Details
+- **OOP**: `TodoManager` class encapsulates all logic
+- **Persistence**: JSON file in `data/tasks.json`
+- **No external libraries** – works on any Python installation
+- **Cross-platform** (Windows, macOS, Linux)
+
+## 5. Challenges Faced
+- Re-assigning task IDs after deletion
+- Validating date input gracefully
+- Handling file creation directories
+
+## 6. What I Learned
+- Working with JSON for simple databases
+- Defensive programming with try/except
+- Clean separation of concerns
+- Building user-friendly CLI interfaces
+
+## 7. Future Enhancements
+- Add reminders with notifications
+- Search and filter tasks
+- Add tags and subtasks
+- Web version using Flask/FastAPI
+
+**Conclusion**: This project is a solid foundation for a personal productivity tool and demonstrates core Python concepts effectively.
